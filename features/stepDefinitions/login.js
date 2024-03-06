@@ -13,12 +13,6 @@ Given('user should open admlucid website', async function hometest () {
         await driver.manage().window().maximize();
         let url =await driver.getCurrentUrl();
         console.log("******Current url******" + url);
-       // await driver.navigate().to('https://admlucid.com/Home/Selenium')
-       // let message= await driver.findElement(By.xpath('//*[@id="Selenium"]/h1'))
-       // await driver.wait(until.elementIsEnabled(message),2000);
-       // let value=(await message.getText()).trim();
-       // assert.equal("Selenium Automation Testing", value);
-       // console.log("**********Page Header***********" + value);
 
 });
 When('user clicks on  reference of automation test', async function automationpage () {
