@@ -1,0 +1,172 @@
+[
+  {
+    "description": "\tThis feature will add both numbers and display sum of both numbers",
+    "elements": [
+      {
+        "description": "",
+        "id": "add-functionality-in-application;adding-two-numbers",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Adding two numbers",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Numbers are provided",
+            "match": {
+              "location": "features\\stepDefinitions\\addnumbers.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1630299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Sum up both numbers here",
+            "match": {
+              "location": "features\\stepDefinitions\\addnumbers.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 540999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Display sum of both numbers",
+            "match": {
+              "location": "features\\stepDefinitions\\addnumbers.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 450199
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "add-functionality-in-application",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Add Functionality in Application",
+    "tags": [],
+    "uri": "features\\Addingnumbers.feature"
+  },
+  {
+    "description": "\tThis feature will add both numbers and display sum of both numbers",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-functionality;login-functionality",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Login functionality",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user should open admlucid website",
+            "match": {
+              "location": "features\\stepDefinitions\\openadmwebsite.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2883788800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user clicks on  reference of automation test",
+            "match": {
+              "location": "features\\stepDefinitions\\openadmwebsite.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3439292899
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login Functionality",
+    "tags": [],
+    "uri": "features\\OpenAdmwebsite.feature"
+  },
+  {
+    "description": "\tThis feature will verify if slenium WebDrivers tab is working",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-functionality;verify-selenium-webdriver-tab-functionality",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Verify Selenium Webdriver tab functionality",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user should open web link",
+            "match": {
+              "location": "features\\stepDefinitions\\openseleniumwebdriver.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4976654000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user clicks on  reference of selenium",
+            "match": {
+              "location": "features\\stepDefinitions\\openseleniumwebdriver.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3410752099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "user clicks on Selenium WebDrivers tab",
+            "match": {
+              "location": "features\\stepDefinitions\\openseleniumwebdriver.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4346550500
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login Functionality",
+    "tags": [],
+    "uri": "features\\OpenSeleniumWebdriver.feature"
+  }
+]

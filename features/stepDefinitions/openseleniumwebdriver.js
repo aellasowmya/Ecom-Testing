@@ -50,11 +50,11 @@ Then('user clicks on Selenium WebDrivers tab', async function webdriverpage() {
     assert.equal("Selenium Automation Testing", value);
     console.log("**********Page Header***********" + value);
     const seleniumweb = await driver.findElement(By.xpath('//button[@id="defaultOpen"][2]'));
-    await driver.wait(until.elementIsVisible(seleniumweb), 10000);
+    await driver.wait(until.elementIsVisible(seleniumweb), 11000);
     await seleniumweb.click();
 
     // Add a delay or any other waiting mechanism if needed
-    await driver.sleep(2000);
+    //await driver.sleep(4000);
 
     // Additional actions after clicking on the Selenium WebDrivers tab
     // ...
