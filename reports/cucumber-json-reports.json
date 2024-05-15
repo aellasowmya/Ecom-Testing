@@ -1,5 +1,41 @@
 [
   {
+    "description": "\tThis feature will verify if we are able to add user in qa dev",
+    "elements": [
+      {
+        "description": "",
+        "id": "add-user-functionality;verify-add-user-functionality",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Verify Add User Functionality",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user should open qaweb link",
+            "match": {
+              "location": "features\\stepDefinitions\\adduser.js:7"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5624570099,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\Lenovo\\Desktop\\ecommerce testing\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "add-user-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Add User Functionality",
+    "tags": [],
+    "uri": "features\\AddUser.feature"
+  },
+  {
     "description": "\tThis feature will add both numbers and display sum of both numbers",
     "elements": [
       {
@@ -19,7 +55,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1630299
+              "duration": 6729800
             }
           },
           {
@@ -32,7 +68,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 540999
+              "duration": 1909099
             }
           },
           {
@@ -45,7 +81,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 450199
+              "duration": 1757700
             }
           }
         ],
@@ -80,7 +116,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2883788800
+              "duration": 3224854499
             }
           },
           {
@@ -93,7 +129,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3439292899
+              "duration": 3864234300
             }
           }
         ],
@@ -128,7 +164,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4976654000
+              "duration": 3070047000
             }
           },
           {
@@ -140,8 +176,9 @@
               "location": "features\\stepDefinitions\\openseleniumwebdriver.js:19"
             },
             "result": {
-              "status": "passed",
-              "duration": 3410752099
+              "status": "failed",
+              "duration": 2241755300,
+              "error_message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=122.0.6261.112)\n    at Object.throwDecodedError (C:\\Users\\Lenovo\\Desktop\\ecommerce testing\\node_modules\\selenium-webdriver\\lib\\error.js:521:15)\n    at parseHttpResponse (C:\\Users\\Lenovo\\Desktop\\ecommerce testing\\node_modules\\selenium-webdriver\\lib\\http.js:510:13)\n    at Executor.execute (C:\\Users\\Lenovo\\Desktop\\ecommerce testing\\node_modules\\selenium-webdriver\\lib\\http.js:443:28)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Driver.execute (C:\\Users\\Lenovo\\Desktop\\ecommerce testing\\node_modules\\selenium-webdriver\\lib\\webdriver.js:740:17)\n    at async World.automationpage (C:\\Users\\Lenovo\\Desktop\\ecommerce testing\\features\\stepDefinitions\\openseleniumwebdriver.js:23:5)"
             }
           },
           {
@@ -153,8 +190,8 @@
               "location": "features\\stepDefinitions\\openseleniumwebdriver.js:37"
             },
             "result": {
-              "status": "passed",
-              "duration": 4346550500
+              "status": "skipped",
+              "duration": 0
             }
           }
         ],
